@@ -1,0 +1,6 @@
+{
+  "name": "Ghanshyam Bag Store",
+  "description": "E-commerce website for Ghanshyam Bag Store located in Champa, Chhattisgarh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

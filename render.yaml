@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ghanshyam-bag
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATA_DIR
+        value: /data
+    disk:
+      name: sqlite-data
+      mountPath: /data
+      sizeGB: 1
